@@ -79,3 +79,7 @@ LABEL description="A server software for creating file hosting services" \
       maintainer="Wonderfall <wonderfall@targaryen.house>"
 
 CMD ["run.sh"]
+
+COPY heroku-entrypoint.sh /heroku-entrypoint.sh
+ENTRYPOINT ["/heroku-entrypoint.sh"]
+CMD ["apachectl", "-D", "FOREGROUND"]
