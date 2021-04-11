@@ -1,0 +1,9 @@
+{
+  "name": "NextCloud-Heroku",
+  "description": "NextCloud-Heroku",
+  "repository": "https://github.com/aswifi/docker-nextcloud",
+  "keywords": ["NextCloud","Heroku"],
+  "image": "aswifi/docker-nextcloud",
+  "success_url": "/",
+  "stack": "container"
+}
